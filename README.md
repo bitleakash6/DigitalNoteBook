@@ -13,6 +13,33 @@ This project involves developing a backend application for a digital notebook pl
 - MongoDB
 - JSON Web Tokens (JWT) for authentication
 
+# Installations
+
+To install and run the DigitalNoteBook application locally, follow these steps:
+
+- Clone the repository:
+    ```bash
+    git clone https://github.com/bitleakash6/DigitalNoteBook/
+    ```
+
+- Navigate to the project directory:
+    ```bash
+    cd DigitalNoteBook
+    ```
+
+- Install dependencies using npm:
+    ```bash
+    npm install
+    ```
+
+- Start the application:
+    ```bash
+    npm start
+    ```
+
+Now, you should have the DigitalNoteBook application up and running on your local machine.
+
+
 # API Endpoints
 ## Authentication Endpoints
 ### Sign Up
