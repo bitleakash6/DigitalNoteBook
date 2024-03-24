@@ -48,14 +48,15 @@ Now, you should have the DigitalNoteBook application up and running on your loca
 - POST `/api/auth/login`: Login a user
 
 ## Notes Endpoints
-### GET APIs
+### Display notes APIs
 - GET `/api/notes` : get a list of all notes for the authenticated user.
 
 - GET `/api/notes/id` : get a note by ID for the authenticated user.
 
+### Searach Notes 
 - GET `/api/search?q=:query` : search for notes based on keywords for the authenticated user.
 
-### POST APIs
+### Adding notes APIs
 - POST `/api/notes ` : create a new note for the authenticated user.
 
 ### Update notes
@@ -64,7 +65,7 @@ Now, you should have the DigitalNoteBook application up and running on your loca
 ### Delete Notes
 - DELETE `/api/notes/id` : delete a note by ID for the authenticated user.
 
-### Searach Notes 
+### Share Notes 
 - POST `/api/notes/:id/share` : share a note with another user for the authenticated user.
 
 
