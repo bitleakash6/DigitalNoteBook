@@ -16,7 +16,7 @@ const noteRoutes = require('./routes/noteRoutes');
 // //use the routers
 app.use('/api/auth', authRoutes);
  app.use('/api', noteRoutes);
-
+g
 
 app.listen(PORT, () => {
     console.log('listening on 3000')
