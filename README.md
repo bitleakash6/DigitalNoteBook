@@ -16,7 +16,7 @@ This project involves developing a backend application for a digital notebook pl
 # API Endpoints
 ## Authentication Endpoints
 ### Sign Up
-- POST /signup: Sign up a user
+- POST `/api/auth/signup `: Sign up a user
 ### Login
-- POST /login: Login a user
+- POST `/api/auth/login`: Login a user
 
