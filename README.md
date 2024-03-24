@@ -16,7 +16,7 @@ JSON Web Tokens (JWT) for authentication
 # API Endpoints
 ## Authentication Endpoints
 ### Sign Up
--POST /signup: Sign up a user
+- POST /signup: Sign up a user
 ### Login
--POST /login: Login a user
+- POST /login: Login a user
 
