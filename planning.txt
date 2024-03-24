@@ -1,0 +1,41 @@
+                                    ****Backend Hiring Assignment*****
+
+Last Updated:
+03/24/2024 at 1:55 pm
+************************************ < Project Overview > *************************************************
+
+
+********You have been asked to build a secure and scalable RESTful API that allows users to create, read, update, and delete notes. 
+The application should also allow users to share their notes with other users and search for notes based on keywords.
+
+
+*****Technical Requirements
+1. Implement a RESTful API
+2. Use a database of your choice to store the data (preferably MongoDB or PostgreSQL).
+3. Use any authentication protocol
+4. Implement search functionality to enable users to search for notes based on keywords. ( preferably text indexing for high performance )
+5. rite unit tests and integration tests your API endpoints using a testing framework of your choice.
+
+
+*******API Endpoints
+Your API should implement the following endpoints:
+
+**************Authentication Endpoints
+1. POST /api/auth/signup: create a new user account.                                       *Done
+2. POST /api/auth/login: log in to an existing user account and receive an access token.   *Done
+
+
+
+*************Note Endpoints
+1. GET /api/notes: get a list of all notes for the authenticated user.      *Done
+2. GET /api/notes/idget a note by ID for the authenticated user.            *Done
+3. POST /api/notes: create a new note for the authenticated user.           *Done
+4. PUT /api/notes/id update an existing note by ID for the authenticated user.   *Done
+5. DELETE /api/notes/id delete a note by ID for the authenticated user.           *Done
+6. POST /api/notes/:id/share: share a note with another user for the authenticated user.    
+7. GET /api/search?q=:query: search for notes based on keywords for the authenticated user.
+
+
+
+**************Deliverables
+A GitHub repository with your code.
